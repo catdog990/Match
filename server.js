@@ -10,8 +10,10 @@ var PORT = process.env.PORT ||3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-require('./App/Routing/htmlRoutes.js');
-require('./App/Routing/apiRoutes.js');
+
+//****Brings in the routes.js files****///
+require('./App/Routing/htmlRoutes.js')(app);
+require('./App/Routing/apiRoutes.js')(app);
 
 //***********Just in Case I can't get the Requiring right***/////
 // app.get("/", function(req, res) {
