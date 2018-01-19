@@ -1,5 +1,5 @@
 
-var tableArray = [
+var powerPuff = [
   {
   name:"Blossom",
   photo:"",
@@ -49,5 +49,23 @@ var tableArray = [
       4,
       1
     ]
+},
+
+ {
+  name:"Mojo Jojo",
+  photo:"https://vignette.wikia.nocookie.net/powerpuff/images/b/b9/Buttercup_ppg.png/revision/latest?cb=20161113153619",
+  scores:[
+      4,
+      5,
+      1,
+      3,
+      4,
+      2,
+      3,
+      4,
+      2,
+      5
+    ]
 }
 ];
+module.exports = powerPuff;
