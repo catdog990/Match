@@ -1,0 +1,31 @@
+h4{
+	border-bottom: 2px solid;
+	border-color: black;
+}
+
+header{
+	text-align: center;
+	border: 2px solid;
+	background-color: rgba(0, 128, 128, 0.8);
+
+}
+
+h1{
+	color: white;
+}
+
+.jumbotron{
+	background-color: rgba(150, 0, 50, 0.7);
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+.containerTwo{
+	background-image: url("../images/Power.png");
+	text-align: center;
+	margin-left: 150px;
+	margin-top: 20px;
+	height: 500px;
+	width: 79%;
+}
