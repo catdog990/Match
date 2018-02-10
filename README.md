@@ -8,6 +8,9 @@ Based on a small survey, the user will be matched with a certain character.
 3. In your browser's address bar, run `localhost:3000`
 4. See who you match with!
 
+![](images/2018-02-09(3).png)
+
+
 ## Technologies Used:
 
 * [Node](https://nodejs.org/en/)
